@@ -9,6 +9,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
     <link rel="stylesheet" type="text/css"
         href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
     <link rel="stylesheet" type="text/css"
@@ -81,22 +82,10 @@
         </div>
     </div>
 </section>
-<section class="footer">
-    <div class="footer-1">
-        <div class="icons d-flex justify-content-center">
-            <a href="#"><i class="fa-brands fa-facebook" style="color: #ffffff;"></i></a> 
-               <a href="#"> <i class="fa-brands fa-twitter" style="color: #ffffff;"></i></a> 
-               <a href="#"> <i class="fa-brands fa-instagram" style="color: #ffffff;"></i></a> 
-
-          
-        </div>
-        <h6 class="copyright d-flex justify-content-center">© Veuz concepts 2022. all rights reserved</h6>
-    </div>
-</section>
+ <?php include("footer.php")?>
 
 
-
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js "
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js "
         integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj " crossorigin="anonymous ">
     </script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js "

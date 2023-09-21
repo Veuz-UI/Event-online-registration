@@ -1,18 +1,266 @@
-@media (max-width: 1600px){
+@media (max-width: 1600px) {}
+
+@media (max-width: 1450px) {
+    .date-time i {
+        margin-right: 20px;
+    }
+    .c-clock {
+        margin-left: 15px;
+    }
+    .background-all {
+        height: 1746px;
+    }
+    .resp-width{
+        width: 500px !important;
+    }
+}
+
+@media (max-width: 1366px) {
+    .background-all {
+        height: auto;
+    }
+    .view-page {
+        /* padding-bottom: 50px; */
+    }
+    .adrss-boxes h4{
+        font-size: 15px;
+    }
+    .resp-width{
+        width: 500px !important;
+    }
 
 }
-@media (max-width: 1450px){
-    
+
+@media (max-width: 1200px) {}
+
+@media (max-width: 767px) {
+    .navbar {
+        padding: 12px 0px;
+    }
+    .map-main-2 iframe {
+        height: 350px;
+        margin-top: 0px;
+        border-radius: 0px;
+    }
+    .cermonies h1 {
+        font-size: 35px;
+    }
+    .cermonies {
+        margin-top: 50px;
+    }
+    .date-time {
+        display: flex !important;
+        flex-direction: column;
+        padding: 10px;
+        margin: 0;
+    }
+    .date-time h3 {
+        font-size: 20px;
+    }
+    .clock img,
+    .clndr img {
+        height: 20px;
+    }
+    .blue-bg {
+        border-radius: 10px;
+        padding: 30px;
+    }
+    .blue-bg h2 {
+        font-size: 30px;
+    }
+    .blue-bg h5 {
+        font-size: 13px;
+    }
+    .blue-bg h4 {
+        font-size: 16px;
+    }
+    .blue-bg p {
+        font-size: 12px;
+    }
+    .event-img {
+        margin-top: 60px;
+    }
+    .img-box {
+        min-height: 400px;
+        border-radius: 10px;
+        margin-top: 15px;
+    }
+    .background-all {
+        height: auto;
+    }
+    .view-box1 h2 {
+        font-size: 30px;
+    }
+    .view-box1 {
+        margin-bottom: 45px;
+    }
+    .count-bg {
+        min-height: 266px;
+    }
+    .days1 h3 {
+        font-size: 30px;
+    }
+    .time .number {
+        height: 50px;
+        width: 50px;
+        font-size: 20px;
+    }
+    .time .text {
+        font-size: 15px;
+    }
+    .days1 {
+        padding-top: 3rem;
+    }
+    .days1 h5 {
+        font-size: 14px;
+    }
+    .whn-cntnt {
+        text-align: center;
+        padding: 0px 25px 25px 25px
+    }
+    .i-clndr {}
+    .i-clndr,
+    .i-clock {
+        display: flex !important;
+        flex-direction: row;
+        justify-content: center;
+    }
+    .i-clock {
+        margin-top: 10px;
+    }
+    .when-cntnd {
+        display: flex !important;
+        flex-direction: column;
+        align-items: center;
+    }
+    .when {
+        height: auto;
+    }
+    .where {
+        height: auto;
+    }
+    .whr-cntnt {
+        align-items: center;
+        display: flex !important;
+        flex-direction: column;
+        text-align: center;
+        padding: 0px 25px 25px 25px
+    }
+    .get-in {
+        margin-top: 20px;
+        height: auto;
+    }
+    .venue h2 {
+        font-size: 30px;
+    }
+    #contact h3 {
+        font-size: 35px;
+    }
+    .map-v {
+        width: auto;
+    }
+    .clndr-v {
+        width: auto;
+    }
+    /* .footer{
+    padding-top: 30px;
+} */
+    .book-btn-2 {
+        margin-top: 20px;
+    }
+    .c-clndr i,
+    .c-clock i {
+        margin-right: 10px;
+    }
+    .c-clock {
+        margin-top: 10px;
+    }
+    .container .time-content {
+        padding: 1rem 2rem 3rem 2rem;
+    }
+    .navbar-toggler-icon {
+        display: inline-block;
+        width: 22px;
+        height: 22px;
+    }
+    .navbar-brand img {
+        width: 100px;
+        margin-right: 50px;
+        padding-left: 10px;
+    }
+    .navbar-toggler {
+        border: 0px;
+    }
+    .contact-section {
+        padding: 50px 0px;
+    }
+    /* aganda page */
+    .background-inner {
+        background-size: cover !important;
+        height: 370px;
+        overflow: hidden;
+    }
+    .inner-heading h1 {
+        font-size: 35px;
+    }
+    .agenda-tab {
+        margin-right: 0px !important;
+    }
+    .agenda-tab .nav-link {
+        margin-right: 0px;
+    }
+    .listing {
+        display: flex!important;
+        flex-direction: column;
+    }
+    .agenda-section {
+        padding: 50px 0px !important;
+    }
+    .agenda-timeline {
+        margin-top: 20px;
+    }
+    /* venue page */
+    .venue-section .venue {
+        padding: 30px;
+    }
+    .venue-section {
+        padding: 15px 0px 15px;
+    }
+    .venue-section .clndr-v {
+        margin: 15px;
+    }
+    .venue-section .map-v {
+        margin: 15px;
+    }
+    .venue-section .whn-cntnt {
+        padding-left: 25px;
+        margin: auto;
+    }
+    .book-btn {
+        /* margin: 0px; */
+    }
+    .social-icons {
+        text-decoration: none;
+    }
+    .speaker-section {
+        padding: 50px 0px 50px;
+    }
+    .ticket-section {
+        padding: 30px;
+    }
+    .nav .book-button {
+        margin-top: 10px;
+    }
+    .registr-btn {
+        margin-top: 17px;
+        padding: 3px 0px;
+    }
+    .speaker-section .speaker-div{
+        margin: 10px 0px;
+    }
+    .sponsor-div{
+        margin: 20px 0px;
+    }
 }
-@media (max-width: 1366px){
-    
-}
-@media (max-width: 1200px){
-    
-}
-@media (max-width: 767px){
-    
-}
-@media only screen and (max-width: 413px) and (min-width: 200px){
-    
-}
+
+@media only screen and (max-width: 413px) and (min-width: 200px) {}
