@@ -5,8 +5,8 @@
     </button>
         <a class="navbar-brand order-first order-md-0 mx-0 margin-header" href="#"><img src="images/logo.png" img-fluid></a>
 
-        <div class="collapse navbar-collapse w-100 " id="navbarSupportedContent">
-            <ul class="nav navbar-nav w-100">
+        <div class="collapse navbar-collapse w-100" id="navbarSupportedContent">
+            <ul class="nav navbar-nav w-100 resp-width">
                 <li class="nav-item active">
                     <a class="nav-link" href="index.php">Home</a>
                 </li>
@@ -23,12 +23,17 @@
                 <li class="nav-item">
                     <a class="nav-link" href="venue.php">Venue</a>
                 </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="sponsors.php">Sponsors</a>
+                </li>
             </ul>
         </div>
 
         <div class="collapse navbar-collapse w-100" id="navbarSupportedContent">
             <ul class="nav navbar-nav ms-auto">
+                <a href="register.php">
                 <button type="button" class="book-button">Register Now</button>
+                </a>
             </ul>
         </div>
     </div>

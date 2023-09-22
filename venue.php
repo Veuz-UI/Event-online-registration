@@ -3,18 +3,15 @@
 
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="images/fav.webp" rel="icon" />
+    <link href="images/favicon.png" rel="icon" />
     <title>Veuz</title>
     <link rel="stylesheet" href="css/icons.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="css/style.css">
-    <link rel="stylesheet" type="text/css"
-        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
-    <link rel="stylesheet" type="text/css"
-        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-    <link href="images/favicon.png" rel="icon" />
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" type="text/css" href="css/owl-carousal.css">
+    <link rel="stylesheet" type="text/css" href="css/owl-theme.css">
+    <link href="css/aos.css" rel="stylesheet">
 </head>
 
 <body>
@@ -51,15 +48,15 @@
                                         <img src="images/menstruation.gif" alt="">
                                     </div>
                                 </div>
-                                <div class="col-lg-9">
+                                <div class="col-lg-9 d-flex align-items-center">
                                     <div class="whn-cntnt">
                                         <h3 class="when-h3">When</h3>
                                         <div class="when-cntnd d-flex">
-                                            <div class="d-flex align-items-center">
+                                            <div class="d-flex align-items-center c-clndr">
                                                 <i class="fa-regular fa-calendar"></i>
                                                 <h3>Sep 28, 2023 - Sep 30, 2023</h3>
                                             </div>
-                                            <div class="d-flex align-items-center ms-md-3 ms-0">
+                                            <div class="d-flex align-items-center ms-md-3 ms-0 c-clock">
                                                 <i class="fa-regular fa-clock"></i>
                                                 <h3>08:00 AM</h3>
                                             </div>
@@ -82,7 +79,7 @@
                                         <img src="images/pin.gif" alt="">
                                     </div>
                                 </div>
-                                <div class="col-lg-9">
+                                <div class="col-lg-9 d-flex align-items-center">
                                     <div class="whr-cntnt">
                                         <h3 class="when-h3">Location</h3>
                                         <h4 class="location">Cyberpark Kozhikode</h4>
@@ -103,41 +100,20 @@
     </div>
 </section>
 <section class="map-section">
-    <div class="map-main">
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3911.5540880973!2d75.85991446179814!3d11.367245197969133!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ba66785d674a927%3A0x9a81f2e9ec163c2d!2sNarikkuni%2C%20Kerala%20673585!5e0!3m2!1sen!2sin!4v1694253797556!5m2!1sen!2sin" width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    <div class="map-main-2">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3913.0981768178704!2d75.8344504117973!3d11.254187850151101!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ba65b946032ba75%3A0xf5ed91156d32a4f2!2sCyberpark%20Kozhikode!5e0!3m2!1sen!2sin!4v1694498260442!5m2!1sen!2sin" width="100%" height="260" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         </div>
 </section>
-<section class="footer">
-    <div class="footer-1">
-        <div class="icons d-flex justify-content-center">
-            <a href="#"><i class="fa-brands fa-facebook" style="color: #ffffff;"></i></a> 
-               <a href="#"> <i class="fa-brands fa-twitter" style="color: #ffffff;"></i></a> 
-               <a href="#"> <i class="fa-brands fa-instagram" style="color: #ffffff;"></i></a> 
-
-          
-        </div>
-        <h6 class="copyright d-flex justify-content-center">© Veuz concepts 2022. all rights reserved</h6>
-    </div>
-</section>
+ <?php include("footer.php")?>
 
 
-
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js "
-        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj " crossorigin="anonymous ">
-    </script>
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js "
-        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r " crossorigin="anonymous ">
-    </script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js "
-        integrity="sha384-fbbOQedDUMZZ5KreZpsbe1LCZPVmfTnH7ois6mU1QK+m14rQ1l2bGBq41eYeM/fS " crossorigin="anonymous ">
-    </script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js "></script>
-    <script src="js/counter.js "></script>
-    <script src="https://kit.fontawesome.com/49ccdaea81.js " crossorigin="anonymous "></script>
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous">
-    </script>
+ <script src="js/jquery.js"></script>
+<script src="js/popper.js"></script>
+<script src="js/bootstap.min.js"></script>
+<script src="js/owl.carousal.js"></script>
+<script src="js/counter.js "></script>
+<script src="js/fontawesome.js"></script>
+<script src="js/aos.js"></script>
     <script>
         AOS.init({
             disable: 'mobile'
