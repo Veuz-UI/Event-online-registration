@@ -26,11 +26,14 @@
                 <li class="nav-item">
                     <a class="nav-link" href="sponsors.php">Sponsors</a>
                 </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="exhibitors.php">Exhibitors</a>
+                </li>
             </ul>
         </div>
 
-        <div class="collapse navbar-collapse w-100" id="navbarSupportedContent">
-            <ul class="nav navbar-nav ms-auto">
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="nav navbar-nav ms-auto nav-regst-btn">
                 <a href="register.php">
                 <button type="button" class="book-button">Register Now</button>
                 </a>

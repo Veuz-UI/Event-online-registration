@@ -1477,3 +1477,86 @@ fieldset {
     box-shadow: none;
 }
 
+
+
+.exhibitor-section{
+    padding: 60px 0px;
+}
+.nav-regst-btn a{
+    width: 150px;
+}
+
+.nav-regst-btn a button{
+    float: right;
+}
+.exhibitor-div{
+    padding-bottom: 15px;
+    background: #fff;
+    border-radius: 8px;
+    margin: 40px 0px;
+    cursor: pointer;
+    box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.10);
+}
+.exhibitor-head{
+    border-bottom: 1px solid #ebebeb;
+    padding: 15px 20px;
+}
+.exhibitor-head h2{
+    font-size: 28px;
+    font-weight: 800;
+    margin-bottom: 4px;
+}
+.exhibitor-head h4{
+    font-size: 19px;
+    font-weight: 600;
+    color: #888;
+    margin-bottom: 0px;
+}
+.exhibitor-details{
+    padding: 20px;
+}
+.exhibitor-details p{
+    font-size: 15px;
+    line-height: 26px;
+    margin-bottom: 18px;
+}
+.apply-spkr{
+    padding: 5px 30px 7px;
+}
+.modal .form-grp {
+    margin-bottom: 10px;
+}
+.modal .form-label {
+    font-size: 13.4px;
+    color: #263238;
+    margin-bottom: 3px;
+    font-weight: 600;
+    font-family: 'Open Sans', sans-serif;
+    letter-spacing: -.3px;
+}
+.modal .form-control {
+    font-size: 14px;
+    padding: 0.35rem 0.7rem;
+}
+.footer-btns{
+    display: flex;
+    gap: 10px;
+    margin-top: 15px;
+}
+#booth-modal .modal-header{
+    padding: 0.85rem 2rem;
+    background-color: #F8F8F8;
+}
+#booth-modal .modal-header h5 span{
+    font-size: 20px;
+    font-weight: 700;
+    color: #222;
+}
+.modal-open{
+    padding-right: 0px !important;
+}
+.tcket-modal-header .modal-title{
+    font-size: 20px;
+    font-weight: 700;
+    color: #222;
+}
