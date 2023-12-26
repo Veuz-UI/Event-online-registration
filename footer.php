@@ -10,3 +10,5 @@
             <h6 class="copyright d-flex justify-content-center">© Veuz concepts 2022. all rights reserved</h6>
         </div>
     </section>
+
+    

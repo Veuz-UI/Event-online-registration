@@ -33,11 +33,71 @@
     <div class="container">
         
         <div class="row d-flex justify-content-center">
-            <!-- <div class="col-lg-12">
+            
+            <div class="col-lg-12">
+                <div class="category-heading">
+                    <h4>All Exhibitors</h4>
+                </div>
+            </div>
+            <div class="col-md-4" data-aos="fade-in" data-aos-duration="3000">
+                <div class="speaker-div">
+                    <div class="speaker-col1">
+                        <img src="images/booth.svg" alt="" class="avatar-md">Booth 1
+                    </div> 
+                    <div class="speaker-col2">
+                        <h5>Muhammed Navab</h5>
+                        <div class="d-flex align-items-center justify-content-center">
+                            <h6>Veuz Concepts</h6>
+                        </div>
+                        
+                    </div>
+                    <div class="main-session-div text-center">
+                        <h5><i class="fa-regular fa-envelope me-1"></i>muhammednavab@veuz.in</h5>
+                     </div>
+                  
+                </div>
+            </div>
+            <div class="col-md-4" data-aos="fade-in" data-aos-duration="3000">
+                <div class="speaker-div">
+                    <div class="speaker-col1">
+                        <img src="images/booth.svg" alt="" class="avatar-md">Booth 2
+                    </div> 
+                    <div class="speaker-col2">
+                        <h5>Muhammed Navab</h5>
+                        <div class="d-flex align-items-center justify-content-center">
+                            <h6>Veuz Concepts</h6>
+                        </div>
+                        
+                    </div>
+                    <div class="main-session-div text-center">
+                        <h5><i class="fa-regular fa-envelope me-1"></i>muhammednavab@veuz.in</h5>
+                     </div>
+                  
+                </div>
+            </div>
+            <div class="col-md-4" data-aos="fade-in" data-aos-duration="3000">
+                <div class="speaker-div">
+                    <div class="speaker-col1">
+                        <img src="images/booth.svg" alt="" class="avatar-md">Booth 3
+                    </div> 
+                    <div class="speaker-col2">
+                        <h5>Muhammed Navab</h5>
+                        <div class="d-flex align-items-center justify-content-center">
+                            <h6>Veuz Concepts</h6>
+                        </div>
+                        
+                    </div>
+                    <div class="main-session-div text-center">
+                        <h5><i class="fa-regular fa-envelope me-1"></i>muhammednavab@veuz.in</h5>
+                     </div>
+                  
+                </div>
+            </div>
+            <div class="col-lg-12">
                 <div class="category-heading">
                     <h4>Booth Category</h4>
                 </div>
-            </div> -->
+            </div>
             <div class="col-md-4" data-aos="fade-in" data-aos-duration="3000">
                 <div class="exhibitor-div" data-bs-toggle="modal" data-bs-target="#booth-modal">
 
@@ -193,7 +253,7 @@ aria-labelledby="staticBackdropLabel" aria-hidden="true">
 <script src="js/bootstap.min.js"></script>
 <script src="js/owl.carousal.js"></script>
 <script src="js/counter.js "></script>
-<script src="js/fontawesome.js"></script>
+<script src="https://kit.fontawesome.com/16b0815225.js" crossorigin="anonymous"></script>
 <script src="js/aos.js"></script>
     <script>
         AOS.init({

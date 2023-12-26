@@ -258,7 +258,7 @@ aria-labelledby="staticBackdropLabel" aria-hidden="true">
 <script src="js/bootstap.min.js"></script>
 <script src="js/owl.carousal.js"></script>
 <script src="js/counter.js "></script>
-<script src="js/fontawesome.js"></script>
+<script src="https://kit.fontawesome.com/16b0815225.js" crossorigin="anonymous"></script>
 <script src="js/aos.js"></script>
     <script>
         AOS.init({

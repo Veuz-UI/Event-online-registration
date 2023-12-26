@@ -50,6 +50,7 @@
         position: absolute;
         width: 94%;
         top: 40px;
+        z-index: 1000;
     }
     .map-main-2 iframe {
         height: 350px;

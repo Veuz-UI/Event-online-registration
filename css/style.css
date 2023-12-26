@@ -1502,13 +1502,13 @@ fieldset {
     padding: 15px 20px;
 }
 .exhibitor-head h2{
-    font-size: 28px;
-    font-weight: 800;
+    font-size: 23px;
+    font-weight: 600;
     margin-bottom: 4px;
 }
 .exhibitor-head h4{
-    font-size: 19px;
-    font-weight: 600;
+    font-size: 17px;
+    font-weight: 500;
     color: #888;
     margin-bottom: 0px;
 }
@@ -1519,6 +1519,7 @@ fieldset {
     font-size: 15px;
     line-height: 26px;
     margin-bottom: 18px;
+    color: #7b7b7b;
 }
 .apply-spkr{
     padding: 5px 30px 7px;
@@ -1559,4 +1560,51 @@ fieldset {
     font-size: 20px;
     font-weight: 700;
     color: #222;
+}
+.exhibitor-section .main-session-div h5{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.exhibitor-section .speaker-div .avatar-md{
+    width: 28px;
+    margin: 0px;
+    display: block;
+}
+
+.exhibitor-section .speaker-div{
+    padding: 0px 0px 20px;
+    background: #fff;
+    border-radius: 8px;
+    margin: 40px 0px;
+    cursor: pointer;
+    box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.10);
+}
+
+.exhibitor-section .speaker-col1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    padding: 12px;
+    border-bottom: 1px solid #ebebeb;
+}
+
+.exhibitor-section .speaker-div .speaker-col2 h5{
+    font-size: 18px;
+    font-weight: 600;
+    margin: 10px 0px;
+    text-align: center;
+    color: #222;
+}
+
+.exhibitor-section .speaker-col2 h6 {
+    font-size: 15px;
+    color: #333;
+    font-weight: 600;
+    margin-bottom: 3px;
+    text-align: center;
 }
